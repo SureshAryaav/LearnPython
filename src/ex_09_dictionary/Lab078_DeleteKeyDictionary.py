@@ -15,5 +15,9 @@ employee["salary"] = 50000  # Add
 employee["role"] = "Senior Developer"  # Update
 print(employee)
 
-for key, value in employee.items():
-	print(f"{key}: {value}")
+employee.pop("salary")
+
+print("After deletion:", employee)
+
+employee.clear()
+print("After clear:", employee)
