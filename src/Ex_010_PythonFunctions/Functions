@@ -9,4 +9,9 @@ def greet():
 # Calling the function
 greet()
 
+Use def to define a function
+Use () to call a function
+Functions can take parameters and return results
+Organize code by putting logic inside functions
+
 
