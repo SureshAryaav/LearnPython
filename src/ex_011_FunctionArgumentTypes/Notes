@@ -1,0 +1,7 @@
+| Argument Type | Description                         |
+| ------------- | ----------------------------------- |
+| Positional    | Matched by position                 |
+| Keyword       | Matched by name                     |
+| Default       | Uses a default if no value is given |
+| `*args`       | Accepts multiple positional values  |
+| `**kwargs`    | Accepts multiple keyword arguments  |

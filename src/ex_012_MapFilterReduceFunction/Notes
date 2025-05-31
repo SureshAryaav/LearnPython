@@ -1,0 +1,6 @@
+| Concept    | Use Case                                 |
+| ---------- | ---------------------------------------- |
+| `lambda`   | Quick anonymous function                 |
+| `map()`    | Transform each element in a list         |
+| `filter()` | Keep only elements that meet a condition |
+| `reduce()` | Collapse a list into one value           |

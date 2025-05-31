@@ -1,0 +1,8 @@
+| Operation   | Example                   |
+| ----------- | ------------------------- |
+| Indexing    | `text[0]`                 |
+| Slicing     | `text[1:4]`               |
+| `lower()`   | `"Hello".lower()`         |
+| `strip()`   | `" hello ".strip()`       |
+| `replace()` | `"old".replace("o", "n")` |
+| f-strings   | `f"Name is {name}"`       |

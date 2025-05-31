@@ -1,0 +1,17 @@
+📘 1. What is a Function?
+A function is a block of code that performs a specific task.
+Instead of writing the same code multiple times, you define it once and reuse it.
+
+📘 2. How to Define and Call a Function
+def greet():
+    print("Hello, welcome to Python!")
+
+# Calling the function
+greet()
+
+Use def to define a function
+Use () to call a function
+Functions can take parameters and return results
+Organize code by putting logic inside functions
+
+
