@@ -1,0 +1,43 @@
+🔹 1. What is a Set?
+Unordered, Unindexed collection of unique elements.
+Defined using curly braces {} or set() constructor.
+Duplicate values are not allowed.
+Items cannot be accessed via index.
+
+| Method           | Description                             |
+| ---------------- | --------------------------------------- |
+| `add(x)`         | Add element `x` to the set              |
+| `remove(x)`      | Remove element `x` (error if not found) |
+| `discard(x)`     | Remove element `x` (no error)           |
+| `pop()`          | Remove a random element                 |
+| `clear()`        | Remove all elements                     |
+| `union()`        | Combine sets without duplicates         |
+| `intersection()` | Common elements                         |
+| `difference()`   | Elements in one set but not the other   |
+
+
+🔹 2. What is a Dictionary?
+Collection of key-value pairs
+Keys must be unique
+Values can be any data type
+Defined using {}
+
+| Operation          | Example                      |
+| ------------------ | ---------------------------- |
+| Access value       | `student["name"]` → `"John"` |
+| Add key-value pair | `student["gender"] = "Male"` |
+| Update value       | `student["age"] = 22`        |
+| Delete key         | `del student["grade"]`       |
+| Get all keys       | `student.keys()`             |
+| Get all values     | `student.values()`           |
+| Get all items      | `student.items()`            |
+
+
+Summary
+| Feature    | Set                    | Dictionary              |
+| ---------- | ---------------------- | ----------------------- |
+| Structure  | Unordered collection   | Key-value pairs         |
+| Mutable    | ✅ Yes                  | ✅ Yes                   |
+| Duplicates | ❌ Not allowed          | ✅ Values allowed        |
+| Indexed?   | ❌ No                   | ✅ By key                |
+| Use cases  | Unique items, math ops | Mapping & lookup tables |

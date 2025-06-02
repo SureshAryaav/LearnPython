@@ -21,3 +21,10 @@ Defined with () instead of []
 4️⃣ When to Use Which?
 ✅ List: When data is dynamic or frequently updated (e.g., shopping cart, user list)
 ✅ Tuple: When data is constant (e.g., days of the week, coordinates)
+
+| Feature     | List   | Tuple  |
+| ----------- | ------ | ------ |
+| Changeable  | ✅ Yes  | ❌ No   |
+| Syntax      | `[]`   | `()`   |
+| Methods     | Many   | Few    |
+| Performance | Slower | Faster |
