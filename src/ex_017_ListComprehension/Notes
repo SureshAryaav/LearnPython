@@ -1,0 +1,14 @@
+1️⃣ What is List Comprehension?
+List comprehension is a concise way to create lists.
+It reduces the need for multiple lines of for loops.
+
+2️⃣ Basic Syntax:
+[expression for item in iterable]
+
+
+| Feature              | Syntax/Example                                    |
+| -------------------- | ------------------------------------------------- |
+| Basic comprehension  | `[x*x for x in range(5)]`                         |
+| With condition       | `[x for x in range(10) if x % 2 == 0]`            |
+| With if-else         | `["Even" if x%2==0 else "Odd" for x in range(5)]` |
+| Nested comprehension | `[(x, y) for x in a for y in b]`                  |

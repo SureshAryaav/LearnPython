@@ -37,7 +37,7 @@ Summary
 | Feature    | Set                    | Dictionary              |
 | ---------- | ---------------------- | ----------------------- |
 | Structure  | Unordered collection   | Key-value pairs         |
-| Mutable    | ✅ Yes                  | ✅ Yes                   |
-| Duplicates | ❌ Not allowed          | ✅ Values allowed        |
-| Indexed?   | ❌ No                   | ✅ By key                |
+| Mutable    | ✅ Yes                 | ✅ Yes                  |
+| Duplicates | ❌ Not allowed         | ✅ Values allowed       |
+| Indexed?   | ❌ No                  | ✅ By key               |
 | Use cases  | Unique items, math ops | Mapping & lookup tables |

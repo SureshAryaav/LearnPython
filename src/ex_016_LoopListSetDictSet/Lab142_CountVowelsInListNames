@@ -1,0 +1,8 @@
+names = ["John", "Alice", "Bob"]
+
+for name in names:
+    count = 0
+    for char in name.lower():
+        if char in "aeiou":
+            count += 1
+    print(f"{name} has {count} vowels")
