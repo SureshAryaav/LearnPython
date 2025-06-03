@@ -1,0 +1,30 @@
+1️⃣ What is a List?
+Mutable (you can change the contents)
+Ordered
+Can store elements of different types
+Defined with []
+
+2️⃣ What is a Tuple?
+Immutable (cannot change contents after creation)
+Ordered
+Can store mixed data types
+Defined with () instead of []
+
+| Feature     | List                  | Tuple                          |
+| ----------- | --------------------- | ------------------------------ |
+| Mutability  | ✅ Mutable             | ❌ Immutable                    |
+| Syntax      | `[]`                  | `()`                           |
+| Methods     | Many built-in methods | Fewer built-in methods         |
+| Performance | Slower                | Faster (more memory-efficient) |
+| Use Case    | Use when data changes | Use when data is fixed         |
+
+4️⃣ When to Use Which?
+✅ List: When data is dynamic or frequently updated (e.g., shopping cart, user list)
+✅ Tuple: When data is constant (e.g., days of the week, coordinates)
+
+| Feature     | List   | Tuple  |
+| ----------- | ------ | ------ |
+| Changeable  | ✅ Yes  | ❌ No   |
+| Syntax      | `[]`   | `()`   |
+| Methods     | Many   | Few    |
+| Performance | Slower | Faster |

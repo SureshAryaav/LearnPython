@@ -1,0 +1,11 @@
+🔁 List vs Tuple vs Set
+Feature 	List	    Tuple	    Set
+Ordered	    ✅ Yes	    ✅ Yes	    ❌ No
+Mutable	    ✅ Yes	    ❌ No	    ✅ Yes
+Duplicates	✅ Allowed	✅ Allowed	❌ Not allowed
+Syntax	    []	        ()	        {}
+Indexing	✅ Yes	    ✅ Yes	    ❌ No
+
+Use tuples for fixed collections that shouldn’t change.
+Use sets for unique items and fast membership testing.
+Lists, tuples, and sets serve different purposes; choose based on use case.
