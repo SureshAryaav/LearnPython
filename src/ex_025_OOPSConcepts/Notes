@@ -1,0 +1,17 @@
+Introduction to Object-Oriented Programming (OOP)
+
+🧠 What is OOP?
+Object-Oriented Programming (OOP) is a paradigm that allows you to design software using objects and classes.
+
+Class: Blueprint for creating objects.
+Object: An instance of a class.
+Attributes: Variables inside a class.
+Methods: Functions defined inside a class.
+
+| Term       | Meaning                        |
+| ---------- | ------------------------------ |
+| `class`    | A blueprint for objects        |
+| `object`   | Instance of a class            |
+| `self`     | Refers to the current instance |
+| `__init__` | Constructor method             |
+

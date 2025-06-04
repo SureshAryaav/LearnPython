@@ -1,0 +1,6 @@
+| Function   | Purpose                            | Example Use Case                 |
+| ---------- | ---------------------------------- | -------------------------------- |
+| `lambda`   | Small anonymous function           | `lambda x: x*2`                  |
+| `map()`    | Transform elements                 | `map(lambda x: x*x, list)`       |
+| `filter()` | Select elements based on condition | `filter(lambda x: x > 5, list)`  |
+| `reduce()` | Aggregate to a single value        | `reduce(lambda x, y: x+y, list)` |

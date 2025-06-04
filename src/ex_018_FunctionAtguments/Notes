@@ -1,0 +1,7 @@
+| Type                  | Syntax Example             | Description                               |
+| --------------------- | -------------------------- | ----------------------------------------- |
+| Positional            | `func("Alice", 25)`        | Order matters                             |
+| Default               | `def func(name="User")`    | Uses default if argument not provided     |
+| Keyword               | `func(name="Bob", age=30)` | Explicitly specifies parameters           |
+| Variable (\*args)     | `def func(*args)`          | Accepts many positional values as tuple   |
+| Variable (\*\*kwargs) | `def func(**kwargs)`       | Accepts many keyword values as dictionary |
