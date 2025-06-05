@@ -1,0 +1,14 @@
+🧠 What is File Handling?
+File handling in Python allows you to store information permanently by interacting with files on disk (like .txt, .csv, etc.).
+
+📂 Opening a File
+Syntax:
+file = open("filename.txt", "mode")
+
+Mode	Description
+r	    Read (default)
+w	    Write (creates file if not exists, erases if exists)
+a	    Append (adds content at the end)
+x	    Create (throws error if file exists)
+r+	    Read and write
+

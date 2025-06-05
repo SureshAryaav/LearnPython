@@ -1,0 +1,7 @@
+| Operation        | Code Example             | Result     |
+| ---------------- | ------------------------ | ---------- |
+| Concatenate      | `"Hello" + "World"`      | HelloWorld |
+| Repeat           | `"Hi" * 3`               | HiHiHi     |
+| Uppercase        | `"hello".upper()`        | HELLO      |
+| Count Vowels     | `count_vowels("apple")`  | 2          |
+| Palindrome Check | `is_palindrome("madam")` | True       |
